@@ -1,41 +1,12 @@
- <!DOCTYPE html>
-<html>
-  <head>
-    <title>Mocha</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="../global.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="mocha.css" />
-  </head>
-  <body>
-    <script>
-     function dump(fileName) {
-        $.get(fileName, function (data) {
-        editor.setValue(data);
-        });
-      };
-    </script> 
-  
-    <div id="mocha"></div>
-  <textarea id="INPUT" name="Code">
-var a = "hello"; // initialize a
-var b = function(x) {
-  var c = 3;
-  return x+c;
-};
-    </textarea>
-
-    <pre id="OUTPUT">&lt;Sin parsear&gt;</pre>
-
-    <script src="chai.js"></script>
-    <script src="mocha.js"></script>
-    <script src="../main.js"></script>
-    <script src="../tokens.js"></script>
-    <script src="../parse.js"></script>
-    <script>mocha.setup('tdd')</script>
-    <script src="tests.js"></script>
+<div id="mocha"></div>
+    
     <script>
       mocha.run();
     </script>
-  </body>
-</html>
+    <script>
+    function dump(fileName) {
+      $.get(fileName, function (data) {
+        $("#input").val(data);
+      });
+    };
+   </script>
