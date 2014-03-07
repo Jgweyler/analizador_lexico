@@ -27,3 +27,8 @@ body
 {
 	text-align: center;
 }
+
+#OUTPUT
+{
+	background-color:#FFFFFF;  /* blue */
+}
