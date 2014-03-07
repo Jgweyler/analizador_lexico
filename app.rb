@@ -2,8 +2,8 @@ require 'sinatra'
 get'/' do
 	erb :index
 end
-get '/tests' do
-  erb :tests
+get '/test' do
+  erb :test
 end
 
 __END__
