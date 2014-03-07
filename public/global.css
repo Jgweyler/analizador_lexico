@@ -1,9 +1,20 @@
 
-h1		{text-align: center; font-size: x-large;}
-a 		{text-decoration: none}
+h1
+{
+ 	text-align: center; font-size: x-large;
+}
+a 	
+{
+ 	text-decoration: none
+}
 
 body
 {
- background-color:#b0c4de;  /* blue */
- background-image: url('recursos/fondo.jpg');	
+ 	background-color:#b0c4de;  /* blue */
+ 	background-image: url('recursos/fondo.png');	
 }
+
+#INPUT
+{
+	height:200px; width: 200px;
+} 
