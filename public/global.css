@@ -6,15 +6,15 @@ a
 {
  	text-decoration: none
 }
+#INPUT
+{
+	height:200px; width: 600px;
+} 
+
 body
 {
 	 background-color:#b0c4de;  /* blue */
-	 background-image: url('recursos/fondo.png');	
-
+	 background-image: url('recursos/fondo.jpg');	
 }
 
-#INPUT
-{
-	height:200px; width: 200px;
-} 
 
