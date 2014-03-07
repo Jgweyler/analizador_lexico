@@ -8,7 +8,7 @@ a
 }
 #INPUT
 {
-	height:200px; width: 800px;
+	height:200px; width: 500px;
 	resize: none;
 } 
 
@@ -31,5 +31,5 @@ body
 #OUTPUT
 {
 	background-color:#FFFFFF;  /* blue */
-	width: 800px;
+	width: 500px;
 }
