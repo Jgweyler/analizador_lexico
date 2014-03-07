@@ -3,5 +3,11 @@
     <script>
       mocha.run();
     </script>
-    
+    <script>
+    function dump(fileName) {
+      $.get(fileName, function (data) {
+        $("#input").val(data);
+      });
+    };
+   </script>
    
