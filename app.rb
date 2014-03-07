@@ -3,7 +3,7 @@ get'/' do
 	erb :index
 end
 get '/test' do
-  erb :test
+  html :index
 end
 
 __END__
